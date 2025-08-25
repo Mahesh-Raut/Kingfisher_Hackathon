@@ -1,0 +1,23 @@
+crop_id,crop_name,crop_category,variety_name,growing_season,maturity_days,optimal_temp_min,optimal_temp_max,water_requirement,soil_ph_min,soil_ph_max,nitrogen_requirement_lbs_per_acre,phosphorus_requirement_lbs_per_acre,potassium_requirement_lbs_per_acre,expected_yield_per_acre,yield_unit,market_price_per_unit,is_active
+CROP_CORN_001,Corn,Grain,Pioneer P1234,Summer,120,60.0,86.0,Medium,6.0,6.8,180,45,60,175,bushels,4.25,TRUE
+CROP_CORN_002,Corn,Grain,DeKalb DKC64-87,Summer,115,62.0,84.0,Medium,6.0,6.8,175,40,55,185,bushels,4.25,TRUE
+CROP_SOYBEAN_001,Soybeans,Legume,Asgrow AG4632,Summer,125,65.0,85.0,Medium,6.2,7.0,0,35,75,55,bushels,11.50,TRUE
+CROP_SOYBEAN_002,Soybeans,Legume,Pioneer P42T83,Summer,118,64.0,86.0,Medium,6.2,7.0,0,38,78,58,bushels,11.50,TRUE
+CROP_WHEAT_001,Winter Wheat,Grain,AgriPro SY Monument,Fall,240,32.0,75.0,Low,6.0,7.5,120,50,40,65,bushels,6.75,TRUE
+CROP_WHEAT_002,Winter Wheat,Grain,Limagrain LCS Chrome,Fall,235,35.0,78.0,Low,6.2,7.5,115,45,38,70,bushels,6.75,TRUE
+CROP_TOMATO_001,Tomatoes,Vegetable,Celebrity Hybrid,Summer,80,65.0,85.0,High,6.0,6.8,150,80,200,25,tons,1200.00,TRUE
+CROP_TOMATO_002,Tomatoes,Vegetable,Better Boy,Summer,85,60.0,80.0,High,6.0,6.8,145,75,195,22,tons,1200.00,TRUE
+CROP_POTATO_001,Potatoes,Vegetable,Russet Burbank,Summer,120,60.0,70.0,Medium,5.0,6.5,180,80,250,18,tons,8.50,TRUE
+CROP_POTATO_002,Potatoes,Vegetable,Red Pontiac,Summer,95,55.0,75.0,Medium,5.2,6.8,175,85,240,16,tons,8.50,TRUE
+CROP_APPLE_001,Apples,Fruit,Honeycrisp,Fall,180,55.0,75.0,Medium,6.0,7.0,75,25,150,45,tons,1.85,TRUE
+CROP_APPLE_002,Apples,Fruit,Gala,Fall,160,60.0,80.0,Medium,6.2,7.2,70,20,140,40,tons,1.65,TRUE
+CROP_COTTON_001,Cotton,Fiber,Delta Pine 1646,Summer,160,70.0,95.0,Medium,5.8,8.0,120,50,60,1100,pounds,0.68,TRUE
+CROP_COTTON_002,Cotton,Fiber,Stoneville ST 4946,Summer,155,72.0,92.0,Medium,6.0,8.2,115,48,58,1200,pounds,0.68,TRUE
+CROP_RICE_001,Rice,Grain,Jasmine Long Grain,Summer,120,70.0,95.0,High,6.0,7.0,150,45,60,7500,pounds,0.14,TRUE
+CROP_RICE_002,Rice,Grain,Calrose Medium Grain,Summer,140,68.0,88.0,High,6.5,7.5,140,50,65,8000,pounds,0.14,TRUE
+CROP_LETTUCE_001,Lettuce,Vegetable,Iceberg,Spring,75,55.0,75.0,High,6.0,7.0,100,60,180,20,tons,850.00,TRUE
+CROP_LETTUCE_002,Lettuce,Vegetable,Romaine Hearts,Spring,70,60.0,78.0,High,6.2,7.2,95,55,175,18,tons,950.00,TRUE
+CROP_SUNFLOWER_001,Sunflower,Oilseed,Pioneer P63M80,Summer,110,65.0,85.0,Low,6.0,7.8,80,35,40,2200,pounds,0.22,TRUE
+CROP_SUNFLOWER_002,Sunflower,Oilseed,Mycogen 8H449,Summer,105,68.0,88.0,Low,6.2,8.0,75,30,38,2400,pounds,0.22,TRUE
+CROP_ALFALFA_001,Alfalfa,Forage,WL 363HQ,Spring,60,65.0,85.0,Medium,6.8,7.8,0,40,200,6,tons,165.00,TRUE
+CROP_ALFALFA_002,Alfalfa,Forage,54Q53 Brand,Spring,55,62.0,82.0,Medium,7.0,8.0,0,45,220,6.5,tons,165.00,TRUE

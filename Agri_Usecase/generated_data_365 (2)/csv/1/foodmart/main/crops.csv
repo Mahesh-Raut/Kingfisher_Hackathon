@@ -1,0 +1,101 @@
+crop_id,crop_name,crop_category,variety_name,growing_season,maturity_days,optimal_temp_min,optimal_temp_max,water_requirement,soil_ph_min,soil_ph_max,nitrogen_requirement_lbs_per_acre,phosphorus_requirement_lbs_per_acre,potassium_requirement_lbs_per_acre,expected_yield_per_acre,yield_unit,market_price_per_unit,is_active,created_timestamp
+66825,rice,pulse,Graham Haley,autumn,10793,8681,4181,high,25,456,31868,15659,13457,19503,bushels,83.66,TRUE,2008-12-03 18:21:18+07:00
+66826,rice,vegetable,Ms. Anette Blanda,autumn,30487,8230,321,high,579,612,8563,16478,8183,8068,pounds,4310.42,TRUE,2011-11-16 00:17:32-09:00
+66827,wheat,grain,Lance Graham,winter,1844,8158,7788,high,248,211,19587,25800,16155,12746,bushels,4659.49,TRUE,2029-09-24 02:23:11-02:00
+66828,soyabean,grain,Marcelo Block,winter,20821,2580,8357,low,104,384,9507,24337,4752,31187,bushels,3876.23,TRUE,2008-09-19 22:26:26+14:00
+66829,rice,pulse,Erick Robel,spring,31907,7918,1383,medium,896,220,3393,10157,1870,28387,bushels,6362.88,TRUE,2020-07-26 17:54:56-03:00
+66830,sugarcane,pulse,Melvin Effertz,winter,24145,883,9740,low,80.9,28.2,4882,14359,25138,2260,kg,1457.35,true,2019-11-03 10:56:09-02:00
+66831,wheat,vegetable,Krysten Zemlak,autumn,27234,8557,5353,medium,52.1,44.6,3950,27854,3482,17975,pounds,7634.61,true,2028-06-17 09:03:17+03:00
+66832,wheat,vegetable,Sherrie Terry IV,winter,8890,8351,4386,medium,96.2,49.7,9656,13726,9592,18673,bushels,1906.44,false,2010-12-06 13:01:08-11:00
+66833,sugarcane,fruit,Adrian Gibson,spring,24296,6272,2917,low,73.7,23.5,6801,15449,6110,3885,kg,7753.57,true,2012-10-20 23:36:12-05:00
+66834,soyabean,fiber,Kelley Crooks,summer,30860,940,1976,high,79.1,78.1,22812,10667,8731,30206,pounds,8106.85,false,2000-05-20 17:15:05-05:00
+66835,barley,vegetable,Dr. Clarita Nitzsche,spring,26129,9869,7360,high,52.4,95.8,16396,20213,23725,14264,bushels,537.47,false,2001-12-17 07:43:59-09:00
+66836,sugarcane,grain,Domingo Wilkinson,spring,28441,3028,7608,medium,96.8,9.3,22146,4116,27656,23457,bushels,4632.78,true,2015-06-27 09:12:22-11:00
+66837,barley,fiber,Reiko Klein,winter,20274,833,5636,medium,61.9,37.8,10462,2862,8615,27410,kg,1257.47,true,2000-02-12 03:23:21+04:00
+66838,wheat,grain,Cornelius Walker I,winter,29656,7313,7049,medium,53.6,68.8,25633,32450,24145,26831,bushels,8405.51,false,2017-07-11 09:05:30+11:00
+66839,wheat,fiber,Ophelia Cormier,autumn,24722,3791,2401,high,10.2,60.4,14571,29707,6273,25282,bushels,8179.04,false,2029-07-26 06:12:41+05:00
+66840,barley,pulse,Vincent Borer,spring,23600,1118,7813,high,66.7,64.2,2775,29235,18269,31237,kg,5493.04,true,2001-04-24 22:17:22+03:00
+66841,wheat,fiber,Von Baumbach DDS,winter,22155,2417,2508,medium,43.8,91.3,10777,23244,10734,24045,pounds,605.56,false,2020-10-10 11:40:17+14:00
+66842,soyabean,pulse,Dr. Frida Watsica,spring,20142,3192,3198,medium,35.4,11.1,9895,6234,24580,11655,kg,76.96,true,2023-07-04 15:44:14+06:00
+66843,wheat,grain,Ivory Schiller Sr.,winter,31303,3957,8783,low,9.7,31.3,4950,6085,4800,1228,kg,2564.46,true,2015-01-09 20:03:51+04:00
+66844,barley,grain,Ms. Janelle O'Reilly,autumn,6099,4529,9559,medium,86.7,74.9,30818,20311,20928,14874,kg,7690.10,true,2014-06-22 02:52:45+11:00
+66845,rice,vegetable,Shayne Runolfsson,winter,16952,6624,7117,high,12.6,83.5,329,30541,20188,27305,pounds,2589.30,true,2029-09-05 19:25:58+03:00
+66846,rice,grain,Trudi Brown,summer,28904,6727,8611,medium,89.3,31.1,546,22561,28043,29197,kg,6564.83,true,2028-10-22 16:26:36-03:00
+66847,barley,pulse,Dr. Lena Labadie,summer,28704,6928,3527,low,94.1,50.3,24720,6348,24713,16819,bushels,8199.60,true,2020-10-28 14:48:46+13:00
+66848,wheat,vegetable,Lester Bechtelar,spring,6105,3784,4853,medium,90.4,95.4,18042,17016,13229,11079,bushels,5562.36,true,2021-09-26 19:25:24+08:00
+66849,sugarcane,pulse,Kimbery Pfannerstill IV,spring,9355,1549,1851,low,17.4,96.3,5874,6186,9734,11503,pounds,3476.71,true,2021-11-03 16:44:32-05:00
+66850,sugarcane,fruit,Ettie Ward MD,spring,18435,8795,5923,low,59.0,84.8,5734,16333,16882,29174,kg,5195.01,false,2023-05-03 08:56:07-03:00
+66851,rice,fruit,Catherina Swift,summer,24208,9988,7357,medium,92.4,82.1,24194,19766,16587,18228,bushels,8924.85,true,2017-11-22 05:08:48+05:00
+66852,wheat,fruit,Roman Bernhard,winter,2221,2079,5775,low,79.6,9.8,6047,18128,2477,15785,pounds,6004.88,true,2030-11-18 18:15:19-06:00
+66853,rice,pulse,Shelby Schneider,autumn,10154,1609,595.3,high,64.9,69.3,5818,19193,23396,4327,pounds,968.84,true,2014-04-09 18:14:40+01:00
+66854,barley,fruit,Shirely McGlynn,winter,22720,4098,715.5,high,57.0,47.8,24720,20845,19565,3280,kg,604.38,true,2023-11-14 12:25:28+09:00
+66855,wheat,fiber,Todd Yost PhD,summer,19898,5796,555.9,low,33.4,16.7,16340,20660,1656,3006,pounds,9881.16,false,2004-09-01 19:01:25+07:00
+66856,sugarcane,grain,Ty Kulas,winter,6413,4885,326.8,low,66.4,39.5,10528,6372,541,3623,pounds,7377.18,true,2007-11-26 04:51:14+14:00
+66857,soyabean,fruit,Tamela Kuhic,winter,2063,1088,489.8,medium,26.8,73.5,28319,10642,6044,10843,bushels,7591.80,true,2030-06-09 22:09:11+09:00
+66858,sugarcane,pulse,Everett Rogahn,summer,11834,319.9,231.7,medium,93.1,81.0,16882,29049,29273,23272,pounds,3825.77,false,2005-01-12 19:34:56+03:00
+66859,sugarcane,grain,Cesar Sanford I,autumn,32260,144.6,497.9,high,57.0,58.7,13014,16352,31522,25007,kg,3184.11,false,2004-09-01 04:23:15-08:00
+66860,sugarcane,vegetable,Beau Torphy,autumn,27466,945.5,980.7,high,11.1,84.4,12538,26594,3334,20210,bushels,256.77,true,2010-02-16 11:41:32-10:00
+66861,wheat,fruit,Moira Kuhic,autumn,14513,474.2,419.2,low,88.4,62.0,23681,8568,962,28214,kg,3421.31,true,2000-09-10 05:00:29+02:00
+66862,rice,vegetable,Genia Schroeder,summer,7855,824.9,936.8,high,36.6,94.7,5030,1106,4607,5859,pounds,2623.76,true,2019-07-05 09:25:59-07:00
+66863,wheat,vegetable,Mariette Windler II,spring,24879,589.3,491.7,high,86.2,53.2,10382,122,13879,8967,kg,7414.93,false,2004-12-22 21:36:57+11:00
+66864,soyabean,fiber,Tiffani O'Connell,autumn,5797,114.0,662.0,low,14.0,53.9,16558,2505,31079,8726,kg,384.45,true,2029-10-26 08:59:58-04:00
+66865,wheat,fiber,Wendie Gerlach,summer,8090,367.2,964.5,high,53.5,30.2,29668,15291,26248,23204,bushels,2690.32,false,2022-11-18 23:01:24-06:00
+66866,rice,fruit,Mr. Johnathon Beer,summer,6372,169.7,504.3,low,90.9,3.3,12258,23828,3310,27462,bushels,5466.45,false,2016-02-20 16:12:48-09:00
+66867,wheat,pulse,Dr. Rhett Carroll,autumn,6185,405.4,948.3,medium,33.7,95.8,12997,20811,21797,19699,bushels,8732.86,true,2029-04-12 08:34:43-12:00
+66868,rice,fruit,Betsey Harvey,winter,10417,60.6,181.8,medium,61.4,4.0,16126,32058,16930,23228,bushels,220.83,true,2021-08-03 14:36:47+13:00
+66869,wheat,pulse,Mr. Annmarie Little,spring,6578,336.3,782.6,low,36.7,10.3,2165,3724,13689,21853,pounds,5027.04,true,2001-06-08 10:11:52-06:00
+66870,soyabean,vegetable,Shantay Abshire Jr.,autumn,17015,291.6,5.1,medium,68.8,98.8,4770,3879,23249,9678,pounds,3922.81,false,2015-04-19 09:39:37+11:00
+66871,soyabean,vegetable,Sena Mante,summer,5984,938.6,231.9,medium,70.7,25.4,1043,15680,29325,31316,bushels,7807.69,false,2017-02-13 08:28:19-07:00
+66872,soyabean,fruit,Ivy Gibson,winter,6612,20.0,273.5,high,52.3,26.1,13505,6521,7751,8709,bushels,3888.43,false,2015-08-01 04:28:28+04:00
+66873,rice,pulse,Isis Paucek,summer,4206,231.1,631.6,high,74.2,56.2,3096,26257,2202,10928,kg,499.88,false,2011-06-03 22:21:37-06:00
+66874,soyabean,vegetable,Dr. Lucrecia Quitzon,winter,14126,138.1,971.2,low,20.0,81.0,15050,26573,29274,22945,kg,6601.24,false,2026-03-04 09:54:37-04:00
+66875,barley,pulse,Rosendo Welch,winter,12907,350.9,16.8,high,41.7,43.2,21329,14946,4103,18495,pounds,2258.10,true,2022-02-07 10:48:21+04:00
+66876,sugarcane,fiber,Mrs. Dan Dach,spring,18750,855.6,43.4,medium,71.1,74.1,6637,10240,18017,2285,pounds,398.01,true,2015-08-07 10:38:27+07:00
+66877,sugarcane,grain,Malcolm Casper IV,winter,7452,1.4,58.8,medium,51.7,82.7,17144,3521,13494,15604,bushels,8532.56,true,2010-04-01 05:52:19+07:00
+66878,sugarcane,fruit,Caren Jerde,summer,27949,591.9,798.4,low,24.4,16.9,7486,30643,29479,16958,kg,9024.32,false,2014-10-20 20:35:06-12:00
+66879,rice,vegetable,Ms. Rosetta Lemke,autumn,4719,234.0,382.3,medium,16.8,26.3,26329,10197,14843,5189,pounds,5961.78,false,2021-06-24 22:11:27-05:00
+66880,wheat,fiber,Meghann Kuhn PhD,summer,14781,246.9,463.3,low,60.3,54.7,21107,18782,14495,12381,pounds,7961.98,false,2012-06-22 06:53:56+10:00
+66881,wheat,fruit,Daphine Dare DDS,winter,11443,104.2,299.3,medium,43.6,15.6,10674,23976,23179,6560,kg,4839.12,false,2028-08-29 22:47:14-02:00
+66882,rice,vegetable,Brad Fay,summer,16406,196.4,191.3,low,42.2,5.5,31884,2428,4404,891,kg,4060.86,true,2023-01-05 05:59:17-07:00
+66883,wheat,fruit,Ms. Brendan Waelchi,spring,25118,12.7,511.0,medium,35.5,13.9,23912,32246,19040,31324,pounds,4068.56,true,2000-06-15 06:44:28+08:00
+66884,soyabean,fruit,Liberty Jacobs,summer,22498,116.6,458.0,low,1.6,3.8,26122,29571,9513,10041,kg,2131.93,true,2007-08-24 17:07:56+14:00
+66885,barley,grain,Mr. Cristobal Legros,winter,14056,665.3,425.8,medium,30.2,52.8,14077,19223,10172,29070,bushels,8498.09,false,2005-12-23 06:23:44-08:00
+66886,rice,grain,Shannon Mann,spring,12275,822.6,952.1,medium,81.1,7.9,3917,16713,11780,18039,bushels,6503.19,true,2012-08-21 17:41:26-06:00
+66887,wheat,fiber,Ernie Dietrich,winter,31470,535.5,401.3,high,54.4,23.9,18676,21258,17594,2860,pounds,1551.58,true,2020-04-20 07:45:35-02:00
+66888,soyabean,grain,Daryl Cronin,winter,14530,979.9,402.6,medium,69.0,78.8,19716,15636,32765,8909,bushels,9304.06,true,2008-05-15 10:51:29-12:00
+66889,barley,pulse,Reva Kutch,autumn,15026,882.7,50.2,medium,43.7,43.3,27405,1445,31511,25310,bushels,1642.10,true,2022-06-01 11:06:40+01:00
+66890,wheat,fiber,Maynard Hegmann,summer,7803,759.2,417.7,medium,28.9,55.6,22759,11530,31225,22253,pounds,9818.16,false,2017-12-17 13:55:47-12:00
+66891,wheat,vegetable,Cammy Crooks,summer,25418,422.8,437.1,medium,59.3,45.6,29379,7293,30450,29744,bushels,4643.68,true,2005-12-28 21:25:43+05:00
+66892,wheat,fiber,Isaias Kohler,winter,12018,618.3,326.3,medium,61.2,46.7,21748,6320,25578,13194,bushels,4652.86,true,2003-06-09 07:16:04+14:00
+66893,barley,grain,Cyril Bode,spring,23905,418.5,219.0,high,7.4,0.3,217,13960,7487,18246,bushels,668.07,false,2030-03-21 02:23:25+05:00
+66894,rice,grain,Serena Krajcik III,summer,4136,152.3,161.6,low,21.0,96.7,11764,25968,14614,18094,pounds,9936.92,false,2002-03-31 04:51:43+02:00
+66895,barley,vegetable,Nobuko Ryan,summer,4636,757.4,642.5,high,5.1,48.0,10375,28362,21189,5554,pounds,2355.38,false,2011-09-18 04:30:00-03:00
+66896,soyabean,pulse,Winter Boyle,summer,15688,240.3,224.5,high,69.9,89.3,4135,32258,10287,28269,kg,8823.50,true,2010-10-28 10:43:29+01:00
+66897,soyabean,fruit,Annabelle Legros,summer,16060,117.3,390.7,medium,73.4,17.7,2957,26234,30942,24373,bushels,4361.21,true,2005-04-27 00:49:30+04:00
+66898,rice,grain,Otilia Cartwright Jr.,spring,23749,140.8,978.9,high,81.1,7.5,7581,7580,7160,20277,kg,5219.23,false,2005-08-18 22:02:55-01:00
+66899,barley,fiber,Terese Sauer,winter,25054,869.7,316.1,low,26.6,66.3,7628,20699,13879,7822,bushels,7979.17,false,2026-08-07 06:55:10-11:00
+66900,rice,grain,Shemika Quitzon PhD,autumn,19721,554.1,653.2,low,3.4,64.4,18963,14903,1263,17703,kg,73.51,false,2028-09-06 14:27:31+08:00
+66901,sugarcane,pulse,Ms. Quinn Bosco,autumn,1945,807.6,438.3,high,8.0,6.8,15580,22461,21056,27500,bushels,272.87,true,2009-11-21 11:49:31+08:00
+66902,barley,fiber,Shenika Jacobi,autumn,7932,496.9,954.3,low,67.7,29.2,21068,4833,3504,3987,kg,3126.42,false,2001-12-31 00:12:41-01:00
+66903,rice,fiber,Exie Bednar,autumn,27193,484.7,884.6,high,22.9,43.7,514,29735,13327,22815,pounds,9705.70,true,2007-05-16 02:59:21-08:00
+66904,barley,fiber,Foster Parisian DDS,winter,23394,137.9,353.0,high,52.9,24.5,19727,922,1476,31730,kg,1643.56,false,2016-09-05 08:20:55+07:00
+66905,soyabean,grain,Karrie Connelly,spring,4187,965.7,230.0,high,55.0,25.7,31977,11857,9020,10703,bushels,8619.40,false,2009-04-11 19:40:10Z
+66906,wheat,fiber,Mrs. Leopoldo Homenick,spring,19019,989.8,859.3,high,31.0,61.6,2924,29849,5548,23043,kg,5788.42,true,2000-04-17 06:52:29+13:00
+66907,barley,vegetable,Eula Jenkins,summer,13390,378.5,840.8,medium,32.2,61.8,27466,2709,23586,32007,pounds,9146.14,true,2024-11-28 19:33:17-12:00
+66908,sugarcane,pulse,Hilde Muller,winter,20713,4.5,556.0,high,21.0,4.5,26036,2547,16425,3884,kg,468.97,true,2006-12-19 09:59:30-02:00
+66909,soyabean,grain,Mr. Anjelica Mills,spring,5344,949.1,492.6,low,0.7,84.8,31658,19852,7984,29077,bushels,8510.21,false,2007-09-27 19:32:06-08:00
+66910,wheat,fruit,Hanna Mills,summer,29829,707.9,828.2,high,96.5,1.6,5480,16807,2829,21642,bushels,9780.84,false,2022-07-15 15:40:01Z
+66911,barley,pulse,Mr. Craig Kirlin,summer,22453,331.4,89.9,low,90.7,25.5,26676,15938,10388,32302,pounds,5145.51,false,2008-10-03 12:36:58+14:00
+66912,wheat,pulse,Mr. Meghan Bauch,summer,27002,236.7,501.0,medium,98.4,57.6,9014,22709,11241,6945,kg,119.20,false,2005-08-16 02:16:48+13:00
+66913,wheat,fruit,Miss Gerardo Dach,autumn,4890,598.6,47.2,medium,5.4,24.1,17628,18147,6104,29826,pounds,3047.30,false,2013-02-19 05:26:06+11:00
+66914,wheat,fiber,Michale Beahan,spring,21132,589.0,353.7,low,23.3,35.7,11575,3799,14278,7320,kg,1304.28,false,2006-06-12 02:51:12+04:00
+66915,barley,pulse,Forrest Ferry,autumn,1913,924.6,381.8,high,29.8,52.7,22991,13718,7818,22505,kg,8163.86,false,2015-09-29 08:59:05+02:00
+66916,sugarcane,fiber,Reiko Boehm DVM,winter,847,823.6,144.7,medium,53.6,9.0,30082,8495,30404,22996,pounds,4458.17,true,2010-02-24 08:34:23-07:00
+66917,barley,vegetable,Al Christiansen,spring,11238,611.5,996.7,medium,29.6,56.3,21413,24546,21843,14689,kg,6374.46,true,2016-09-08 21:11:32+04:00
+66918,sugarcane,fiber,Brendon Herzog MD,spring,2214,794.7,742.3,low,96.5,23.8,16232,23872,2226,7233,pounds,1533.03,true,2028-04-23 04:13:16-01:00
+66919,sugarcane,fiber,Ngoc Schroeder,winter,17047,26.6,727.5,low,15.6,49.2,1659,992,8553,27026,pounds,9052.02,true,2010-05-28 13:41:16-08:00
+66920,rice,vegetable,Mr. Jamie Thiel,winter,9748,232.7,860.2,medium,74.2,27.5,24876,24045,12380,25496,bushels,6405.45,false,2007-06-07 07:41:56-10:00
+66921,rice,pulse,Elke Hane,spring,1243,127.7,539.1,medium,31.8,94.4,7282,19220,27145,23778,bushels,7456.52,false,2030-10-01 07:33:57+11:00
+66922,rice,pulse,Adena Wolff,spring,9569,280.7,818.2,high,2.2,15.3,30935,3120,8228,6456,kg,9105.56,true,2022-02-03 09:50:36+02:00
+66923,barley,fiber,Claudio Turner,autumn,26151,414.8,914.7,high,93.1,96.8,2624,27710,22742,20379,bushels,6292.97,false,2029-05-20 05:32:09+14:00
+66924,rice,grain,Dexter Gislason,autumn,2930,173.0,178.7,low,88.3,12.1,20160,14521,31208,7075,bushels,1144.41,false,2026-07-05 19:17:51+04:00
