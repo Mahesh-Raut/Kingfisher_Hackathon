@@ -1,0 +1,124 @@
+{
+  "data_quality_config": {
+    "thresholds": {
+      "completeness_minimum": 0.95,
+      "validity_minimum": 0.9,
+      "uniqueness_minimum": 0.95,
+      "consistency_minimum": 0.9,
+      "overall_minimum": 0.8
+    },
+    "column_patterns": {
+      "email": {
+        "regex": ".*email.*",
+        "validations": ["email_format", "completeness"],
+        "regex_pattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$"
+      },
+      "age": {
+        "regex": ".*age.*",
+        "validations": ["numeric_range", "completeness"],
+        "min_value": 0,
+        "max_value": 120
+      },
+      "id": {
+        "regex": ".*id.*",
+        "validations": ["uniqueness", "completeness", "numeric_format"],
+        "allow_null": false
+      },
+      "date": {
+        "regex": ".*(date|created_at|updated_at).*",
+        "validations": ["date_format", "completeness"],
+        "date_pattern": "^\\d{4}-\\d{2}-\\d{2}",
+        "allow_null": true
+      },
+      "amount": {
+        "regex": ".*(amount|balance|price).*",
+        "validations": ["numeric_format", "completeness", "positive_value"],
+        "min_value": 0
+      },
+      "phone": {
+        "regex": ".*(phone|mobile).*",
+        "validations": ["phone_format", "completeness"],
+        "phone_pattern": "^[\\d\\(\\)\\-\\+\\s\\.x]+$"
+      },
+      "username": {
+        "regex": ".*username.*",
+        "validations": ["uniqueness", "completeness", "username_format"],
+        "min_length": 3,
+        "max_length": 50
+      }
+    },
+    "table_relationships": [
+      {
+        "parent_table": "users",
+        "parent_key": "id",
+        "child_table": "accounts",
+        "foreign_key": "user_id"
+      },
+      {
+        "parent_table": "accounts",
+        "parent_key": "id",
+        "child_table": "transactions",
+        "foreign_key": "from_account_id"
+      },
+      {
+        "parent_table": "accounts",
+        "parent_key": "id",
+        "child_table": "transactions",
+        "foreign_key": "to_account_id"
+      }
+    ],
+    "consistency_checks": [
+      {
+        "table": "users",
+        "rule": "date_range",
+        "start_column": "created_at",
+        "end_column": "updated_at"
+      },
+      {
+        "table": "accounts",
+        "rule": "date_range",
+        "start_column": "created_at",
+        "end_column": "updated_at"
+      },
+      {
+        "table": "transactions",
+        "rule": "date_range",
+        "start_column": "created_at",
+        "end_column": "updated_at"
+      }
+    ],
+    "business_rules": [
+      {
+        "table": "accounts",
+        "rule": "balance_non_negative",
+        "column": "balance",
+        "condition": ">= 0"
+      },
+      {
+        "table": "transactions",
+        "rule": "amount_positive",
+        "column": "amount",
+        "condition": "> 0"
+      },
+      {
+        "table": "users",
+        "rule": "active_flag_valid",
+        "column": "active",
+        "condition": "in [0, 1]"
+      }
+    ],
+    "data_profiling": {
+      "enable_statistics": true,
+      "calculate_distributions": true,
+      "detect_outliers": true,
+      "outlier_threshold": 3.0,
+      "enable_correlation_analysis": true
+    },
+    "reporting": {
+      "output_formats": ["json", "html", "csv"],
+      "include_recommendations": true,
+      "include_data_lineage": false,
+      "detail_level": "comprehensive"
+    }
+  }
+}

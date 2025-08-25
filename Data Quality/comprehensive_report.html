@@ -1,0 +1,96 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Quality Assessment Report</title>
+        <style>
+            body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
+            .container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+            .header { text-align: center; margin-bottom: 30px; }
+            .score { font-size: 3em; font-weight: bold; margin: 20px 0; }
+            .score.good { color: #27ae60; }
+            .score.warning { color: #f39c12; }
+            .score.poor { color: #e74c3c; }
+            .dimension { display: inline-block; margin: 10px; padding: 15px; border-radius: 8px; min-width: 150px; text-align: center; }
+            .dimension.good { background: #d5f4e6; border-left: 4px solid #27ae60; }
+            .dimension.warning { background: #fef9e7; border-left: 4px solid #f39c12; }
+            .dimension.poor { background: #fadbd8; border-left: 4px solid #e74c3c; }
+            .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0; }
+            .stat-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; }
+            .issues { margin: 30px 0; }
+            .issue { padding: 10px; margin: 5px 0; border-left: 4px solid #e74c3c; background: #fadbd8; border-radius: 4px; }
+            .recommendations { margin: 30px 0; }
+            .recommendation { padding: 10px; margin: 5px 0; border-left: 4px solid #3498db; background: #ebf3fd; border-radius: 4px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>📊 Data Quality Assessment Report</h1>
+                <p>Generated on 2025-08-25T11:07:37.025322</p>
+                <div class="score good">
+                    97.5%
+                </div>
+                <p>Overall Data Quality Score</p>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>3</h3>
+                    <p>Tables Analyzed</p>
+                </div>
+                <div class="stat-card">
+                    <h3>27</h3>
+                    <p>Columns Checked</p>
+                </div>
+                <div class="stat-card">
+                    <h3>3,000</h3>
+                    <p>Records Processed</p>
+                </div>
+            </div>
+            
+            <h2>📈 Quality Dimensions</h2>
+            <div style="text-align: center;">
+    
+                <div class="dimension good">
+                    <h4>Completeness</h4>
+                    <div style="font-size: 1.5em; font-weight: bold;">100.0%</div>
+                </div>
+        
+                <div class="dimension good">
+                    <h4>Uniqueness</h4>
+                    <div style="font-size: 1.5em; font-weight: bold;">100.0%</div>
+                </div>
+        
+                <div class="dimension good">
+                    <h4>Validity</h4>
+                    <div style="font-size: 1.5em; font-weight: bold;">100.0%</div>
+                </div>
+        
+                <div class="dimension good">
+                    <h4>Conformity</h4>
+                    <div style="font-size: 1.5em; font-weight: bold;">99.9%</div>
+                </div>
+        
+                <div class="dimension warning">
+                    <h4>Consistency</h4>
+                    <div style="font-size: 1.5em; font-weight: bold;">76.3%</div>
+                </div>
+        
+            </div>
+            
+            <h2>🚨 Critical Issues</h2>
+            <div class="issues">
+    <p>✅ No critical issues found!</p>
+            </div>
+            
+            <h2>💡 Recommendations</h2>
+            <div class="recommendations">
+    <p>✅ No specific recommendations at this time.</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
